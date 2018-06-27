@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-06-25T17:07:36.406930471-04:00
+    created: 2018-06-26T23:01:11.66299556-04:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: de504cfdbeb81235b7ac3cbe378e5ec53af7e3371d7ce9f7cb06de3d9a9babec
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,7 +24,7 @@ entries:
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-06-25T17:07:36.407221624-04:00
+    created: 2018-06-26T23:01:11.663420351-04:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -43,10 +43,34 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-06-25T17:07:36.408041148-04:00
+    created: 2018-06-26T23:01:11.664898109-04:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
-    digest: 2b9dcdfbc97a239e5b0d621eec889e6734fd6b650a696e0ae09e96ee393a1c05
+    digest: b84bfc39cf97ca73a3ef5cf7bd0d8b2d1d8ae909d899e995555f08cab35fbdb0
+    engine: gotpl
+    home: https://nextcloud.com/
+    icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
+    keywords:
+    - owncloud
+    - nextcloud
+    - storage
+    - http
+    - web
+    - php
+    maintainers:
+    - email: opensource@keiran.scot
+      name: affix
+    name: nextcloud
+    sources:
+    - https://github.com/nextcloud/server
+    urls:
+    - nextcloud-0.1.7.tgz
+    version: 0.1.7
+  - appVersion: 13.0.0
+    created: 2018-06-26T23:01:11.664164419-04:00
+    description: A file sharing server that puts the control and security of your
+      own data back into your hands.
+    digest: 6e7bcd8a235f694d5645a45e41b2c345934845d007308957f23d69b9955a91e4
     engine: gotpl
     home: https://nextcloud.com/
     icon: https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg
@@ -69,7 +93,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-06-25T17:07:36.408354492-04:00
+    created: 2018-06-26T23:01:11.665731564-04:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -89,7 +113,7 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 1.6.2
-    created: 2018-06-25T17:07:36.40911277-04:00
+    created: 2018-06-26T23:01:11.667103384-04:00
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 124f545edcc70b2e5a6c001dd940fb5333e6e8807fbc0346c6f0a43b247238c0
@@ -120,7 +144,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-06-25T17:07:36.409763966-04:00
+    created: 2018-06-26T23:01:11.668253409-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -139,7 +163,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-06-25T17:07:36.409455487-04:00
+    created: 2018-06-26T23:01:11.667773477-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: 5db1386102e4f53b728949c198874baeadc92dcda3066b8b03d05729f4436993
     home: https://github.com/billimek/node-influx-uptimerobot
@@ -156,4 +180,4 @@ entries:
     urls:
     - uptimerobot-1.0.0.tgz
     version: 1.0.0
-generated: 2018-06-25T17:07:36.406348817-04:00
+generated: 2018-06-26T23:01:11.662197784-04:00
