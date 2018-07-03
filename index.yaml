@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-02T21:51:05.503010551-04:00
+    created: 2018-07-02T22:37:22.829266142-04:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: de504cfdbeb81235b7ac3cbe378e5ec53af7e3371d7ce9f7cb06de3d9a9babec
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,7 +24,7 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-02T21:51:05.503298437-04:00
+    created: 2018-07-02T22:37:22.829564023-04:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -44,9 +44,9 @@ entries:
   home-assistant:
   - apiVersion: v1
     appVersion: 0.72.1
-    created: 2018-07-02T21:51:05.503781096-04:00
+    created: 2018-07-02T22:37:22.830047359-04:00
     description: Home Assistant
-    digest: 6dcc959c01246aaca8ecd6c478e3218d86148fcbc4e7c7a8787ff54df7461799
+    digest: 3267dd3a107c806a7de9875cf57f3bbcaf6e64e9da485cc7011d947a0ffaa462
     home: https://github.com/home-assistant/home-assistant
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
     keywords:
@@ -60,12 +60,12 @@ entries:
     sources:
     - https://github.com/home-assistant/home-assistant
     urls:
-    - home-assistant-0.1.22.tgz
-    version: 0.1.22
+    - home-assistant-0.1.23.tgz
+    version: 0.1.23
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-02T21:51:05.504084654-04:00
+    created: 2018-07-02T22:37:22.830334431-04:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -84,7 +84,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-07-02T21:51:05.505630639-04:00
+    created: 2018-07-02T22:37:22.832513482-04:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -108,7 +108,7 @@ entries:
     - nextcloud-0.1.9.tgz
     version: 0.1.9
   - appVersion: 13.0.0
-    created: 2018-07-02T21:51:05.504821272-04:00
+    created: 2018-07-02T22:37:22.831082301-04:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: b84bfc39cf97ca73a3ef5cf7bd0d8b2d1d8ae909d899e995555f08cab35fbdb0
@@ -134,7 +134,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-02T21:51:05.50619663-04:00
+    created: 2018-07-02T22:37:22.832794485-04:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -154,7 +154,7 @@ entries:
   traefik:
   - apiVersion: v1
     appVersion: 1.6.2
-    created: 2018-07-02T21:51:05.5069794-04:00
+    created: 2018-07-02T22:37:22.833473638-04:00
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 124f545edcc70b2e5a6c001dd940fb5333e6e8807fbc0346c6f0a43b247238c0
@@ -185,7 +185,7 @@ entries:
   unifi:
   - apiVersion: v1
     appVersion: 5.8.24
-    created: 2018-07-02T21:51:05.507379905-04:00
+    created: 2018-07-02T22:37:22.833831294-04:00
     description: Ubiqiti Network's Unifi Controller
     digest: 0a40ba0f9ad83089345a36af2a2d434c8995d6718c40d768ab3ff238a076b792
     home: https://github.com/jacobalberty/unifi-docker
@@ -207,7 +207,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-07-02T21:51:05.50789215-04:00
+    created: 2018-07-02T22:37:22.834380442-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -226,7 +226,7 @@ entries:
     version: 1.1.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-02T21:51:05.507628761-04:00
+    created: 2018-07-02T22:37:22.834095168-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: 5db1386102e4f53b728949c198874baeadc92dcda3066b8b03d05729f4436993
     home: https://github.com/billimek/node-influx-uptimerobot
@@ -243,4 +243,4 @@ entries:
     urls:
     - uptimerobot-1.0.0.tgz
     version: 1.0.0
-generated: 2018-07-02T21:51:05.502451905-04:00
+generated: 2018-07-02T22:37:22.828685091-04:00
