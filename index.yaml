@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-29T15:46:17.706142797-04:00
+    created: 2018-07-29T16:11:00.642711471-04:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: de504cfdbeb81235b7ac3cbe378e5ec53af7e3371d7ce9f7cb06de3d9a9babec
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,7 +24,7 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-29T15:46:17.706394896-04:00
+    created: 2018-07-29T16:11:00.642961751-04:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -44,9 +44,9 @@ entries:
   home-assistant:
   - apiVersion: v1
     appVersion: 0.74.2
-    created: 2018-07-29T15:46:17.707198158-04:00
+    created: 2018-07-29T16:11:00.643736419-04:00
     description: Home Assistant
-    digest: e032746f023af2bd4855710a1f81e3e53947aa77325c787175e1ca2f0bfa940e
+    digest: d714253d534375fe35c0ca2eee28ff488da5c3c6704ef8ea37f8460f4da6de64
     home: https://github.com/home-assistant/home-assistant
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Home_Assistant_Logo.svg/519px-Home_Assistant_Logo.svg.png
     keywords:
@@ -61,11 +61,11 @@ entries:
     - https://github.com/home-assistant/home-assistant
     - https://github.com/danielperna84/hass-configurator
     urls:
-    - home-assistant-0.1.33.tgz
-    version: 0.1.33
+    - home-assistant-0.1.41.tgz
+    version: 0.1.41
   - apiVersion: v1
     appVersion: 0.72.1
-    created: 2018-07-29T15:46:17.706812195-04:00
+    created: 2018-07-29T16:11:00.643358438-04:00
     description: Home Assistant
     digest: b55c03d19285b4e046b2b81ad7a7dda2472a8350954f538fe82ba12e61a4abf3
     home: https://github.com/home-assistant/home-assistant
@@ -86,7 +86,7 @@ entries:
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-29T15:46:17.707448521-04:00
+    created: 2018-07-29T16:11:00.644002907-04:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -105,7 +105,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-07-29T15:46:17.708066039-04:00
+    created: 2018-07-29T16:11:00.644609361-04:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -131,7 +131,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-07-29T15:46:17.70830933-04:00
+    created: 2018-07-29T16:11:00.644872819-04:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -151,7 +151,7 @@ entries:
   unifi:
   - apiVersion: v1
     appVersion: 5.8.24
-    created: 2018-07-29T15:46:17.708645743-04:00
+    created: 2018-07-29T16:11:00.645213437-04:00
     description: Ubiqiti Network's Unifi Controller
     digest: 0a40ba0f9ad83089345a36af2a2d434c8995d6718c40d768ab3ff238a076b792
     home: https://github.com/jacobalberty/unifi-docker
@@ -173,7 +173,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-07-29T15:46:17.708895122-04:00
+    created: 2018-07-29T16:11:00.64548969-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -190,4 +190,4 @@ entries:
     urls:
     - uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2018-07-29T15:46:17.705666525-04:00
+generated: 2018-07-29T16:11:00.642227839-04:00
