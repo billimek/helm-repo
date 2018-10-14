@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-10-13T22:15:58.878696-04:00
+    created: 2018-10-13T22:31:26.127748-04:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: 3d8939e66c589733bf805d8ff56de8a8483d2c2e90705c7d1b65b6fe76cd2925
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -19,12 +19,12 @@ entries:
     - https://github.com/billimek/comcastUsage-for-influxdb
     - https://github.com/billimek/billimek-charts
     urls:
-    - comcast-1.0.0.tgz
+    - https://billimek.github.io/helm-repo/comcast-1.0.0.tgz
     version: 1.0.0
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-13T22:15:58.879189-04:00
+    created: 2018-10-13T22:31:26.128004-04:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -39,12 +39,12 @@ entries:
     - https://github.com/tunix/digitalocean-dyndns
     - https://github.com/billimek/billimek-charts
     urls:
-    - digitalocean-dyndns-0.1.0.tgz
+    - https://billimek.github.io/helm-repo/digitalocean-dyndns-0.1.0.tgz
     version: 0.1.0
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-10-13T22:15:58.879638-04:00
+    created: 2018-10-13T22:31:26.128247-04:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -59,11 +59,11 @@ entries:
     - https://github.com/billimek/SB6183-stats-for-influxdb
     - https://github.com/billimek/billimek-charts
     urls:
-    - modem-stats-1.0.0.tgz
+    - https://billimek.github.io/helm-repo/modem-stats-1.0.0.tgz
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-10-13T22:15:58.880659-04:00
+    created: 2018-10-13T22:31:26.128868-04:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -84,12 +84,12 @@ entries:
     sources:
     - https://github.com/nextcloud/server
     urls:
-    - nextcloud-0.1.9.tgz
+    - https://billimek.github.io/helm-repo/nextcloud-0.1.9.tgz
     version: 0.1.9
   node-red:
   - apiVersion: v1
     appVersion: 0.19.4
-    created: 2018-10-13T22:15:58.881393-04:00
+    created: 2018-10-13T22:31:26.12917-04:00
     description: Node-RED
     digest: 8fa962cbfc33653f96b42f0aa23672fe579ffd65a4d1159b04aec13bdb4ca89a
     home: https://github.com/node-red/node-red-docker
@@ -105,12 +105,12 @@ entries:
     - https://github.com/node-red/node-red-docker
     - https://github.com/kubernetes/charts/stable/node-red
     urls:
-    - node-red-0.0.5.tgz
+    - https://billimek.github.io/helm-repo/node-red-0.0.5.tgz
     version: 0.0.5
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-10-13T22:15:58.881876-04:00
+    created: 2018-10-13T22:31:26.129423-04:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -125,12 +125,12 @@ entries:
     - https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
     - https://github.com/billimek/billimek-charts
     urls:
-    - speedtest-1.0.1.tgz
+    - https://billimek.github.io/helm-repo/speedtest-1.0.1.tgz
     version: 1.0.1
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-10-13T22:15:58.882328-04:00
+    created: 2018-10-13T22:31:26.129682-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -145,6 +145,6 @@ entries:
     - https://github.com/trojanc/node-influx-uptimerobot
     - https://github.com/billimek/billimek-charts
     urls:
-    - uptimerobot-1.1.2.tgz
+    - https://billimek.github.io/helm-repo/uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2018-10-13T22:15:58.878233-04:00
+generated: 2018-10-13T22:31:26.127281-04:00
