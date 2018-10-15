@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-10-15T11:44:55.594221237-04:00
+    created: 2018-10-15T11:48:03.488763402-04:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: 3d8939e66c589733bf805d8ff56de8a8483d2c2e90705c7d1b65b6fe76cd2925
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,7 +24,7 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-10-15T11:44:55.5948758-04:00
+    created: 2018-10-15T11:48:03.489184019-04:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -44,7 +44,7 @@ entries:
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-10-15T11:44:55.595521917-04:00
+    created: 2018-10-15T11:48:03.489551895-04:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -63,7 +63,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-10-15T11:44:55.596704663-04:00
+    created: 2018-10-15T11:48:03.490587709-04:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -89,9 +89,9 @@ entries:
   node-red:
   - apiVersion: v1
     appVersion: 0.19.4
-    created: 2018-10-15T11:44:55.597392354-04:00
+    created: 2018-10-15T11:48:03.491059999-04:00
     description: Node-RED is flow-based programming for the Internet of Things
-    digest: 76e20c1c566a3ed5b3d2bad49b2769096fa87e9831e7eb99ef5052f81e3b48df
+    digest: e4bd6326eb425cc79d91bf980ec30dfd1eaa307d499d85233cbf93f34a0eb4e3
     home: https://github.com/node-red/node-red-docker
     icon: https://nodered.org/about/resources/media/node-red-icon-2.png
     keywords:
@@ -110,7 +110,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-10-15T11:44:55.597982211-04:00
+    created: 2018-10-15T11:48:03.49152109-04:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -130,7 +130,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-10-15T11:44:55.59848626-04:00
+    created: 2018-10-15T11:48:03.491946005-04:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -147,4 +147,4 @@ entries:
     urls:
     - https://billimek.github.io/helm-repo/uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2018-10-15T11:44:55.593546647-04:00
+generated: 2018-10-15T11:48:03.48794984-04:00
