@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-04T11:54:48.819258-05:00
+    created: 2018-11-04T20:44:18.931125-05:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: 3d8939e66c589733bf805d8ff56de8a8483d2c2e90705c7d1b65b6fe76cd2925
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,10 +24,10 @@ entries:
   deluge:
   - apiVersion: v1
     appVersion: "145"
-    created: 2018-11-04T11:54:48.819614-05:00
+    created: 2018-11-04T20:44:18.931499-05:00
     description: Deluge is a lightweight, Free Software, cross-platform BitTorrent
       client.
-    digest: 620e12b3e1c742386557d2303900586f2334cef974e81be2d1aa66bda2e31d91
+    digest: c0a764f55cc53f47e8e32ae5bdcbe5c4a277d530c0f1e5efa2e7a49b9105f24d
     home: https://deluge-torrent.org/
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Deluge-Logo.svg/2000px-Deluge-Logo.svg.png
     keywords:
@@ -41,12 +41,12 @@ entries:
     - https://hub.docker.com/r/linuxserver/deluge/
     - https://github.com/billimek/billimek-charts/deluge
     urls:
-    - deluge-0.1.1.tgz
-    version: 0.1.1
+    - deluge-0.1.2.tgz
+    version: 0.1.2
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-04T11:54:48.820063-05:00
+    created: 2018-11-04T20:44:18.931967-05:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -66,7 +66,7 @@ entries:
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-04T11:54:48.820498-05:00
+    created: 2018-11-04T20:44:18.932431-05:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -85,7 +85,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-11-04T11:54:48.821512-05:00
+    created: 2018-11-04T20:44:18.933441-05:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -111,7 +111,7 @@ entries:
   node-red:
   - apiVersion: v1
     appVersion: 0.19.4
-    created: 2018-11-04T11:54:48.822244-05:00
+    created: 2018-11-04T20:44:18.934204-05:00
     description: Node-RED is flow-based programming for the Internet of Things
     digest: e4bd6326eb425cc79d91bf980ec30dfd1eaa307d499d85233cbf93f34a0eb4e3
     home: https://github.com/node-red/node-red-docker
@@ -132,7 +132,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-04T11:54:48.822713-05:00
+    created: 2018-11-04T20:44:18.934691-05:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -152,7 +152,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-11-04T11:54:48.823155-05:00
+    created: 2018-11-04T20:44:18.935152-05:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -169,4 +169,4 @@ entries:
     urls:
     - uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2018-11-04T11:54:48.818488-05:00
+generated: 2018-11-04T20:44:18.929674-05:00
