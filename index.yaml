@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-06T22:12:08.616995-05:00
+    created: 2018-11-06T23:11:17.770275-05:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: 3d8939e66c589733bf805d8ff56de8a8483d2c2e90705c7d1b65b6fe76cd2925
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,10 +24,10 @@ entries:
   deluge:
   - apiVersion: v1
     appVersion: "145"
-    created: 2018-11-06T22:12:08.617791-05:00
+    created: 2018-11-06T23:11:17.770641-05:00
     description: Deluge is a lightweight, Free Software, cross-platform BitTorrent
       client.
-    digest: c0a764f55cc53f47e8e32ae5bdcbe5c4a277d530c0f1e5efa2e7a49b9105f24d
+    digest: 54a6a12d89576e563b2b957a6bc07b6b0ff7697ae9bd6554ec46f49f183ee21a
     home: https://deluge-torrent.org/
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Deluge-Logo.svg/2000px-Deluge-Logo.svg.png
     keywords:
@@ -41,12 +41,12 @@ entries:
     - https://hub.docker.com/r/linuxserver/deluge/
     - https://github.com/billimek/billimek-charts/deluge
     urls:
-    - deluge-0.1.2.tgz
-    version: 0.1.2
+    - deluge-0.1.3.tgz
+    version: 0.1.3
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-06T22:12:08.61827-05:00
+    created: 2018-11-06T23:11:17.771025-05:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -66,7 +66,7 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.10.1.4602-f54242b6b
-    created: 2018-11-06T22:12:08.620254-05:00
+    created: 2018-11-06T23:11:17.771685-05:00
     description: Plex Media Server
     digest: d1afd9db2e22629d90bb2f3e907e5d20634a069c30bf2842314acad93aca5727
     home: https://plex.tv/
@@ -82,36 +82,10 @@ entries:
     urls:
     - kube-plex-0.2.1.tgz
     version: 0.2.1
-  - apiVersion: v1
-    appVersion: 1.10.1.4602-f54242b6b
-    created: 2018-11-06T22:12:08.619492-05:00
-    description: Plex Media Server
-    digest: e2832c3eba89646591be46e916ad683ffe341fc0ba6813dde1b86fd9eceb6d8d
-    home: https://plex.tv/
-    icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
-    keywords:
-    - plex
-    maintainers:
-    - name: munnerz
-    name: kube-plex
-    sources:
-    - https://github.com/munnerz/kube-plex
-    - https://hub.docker.com/r/plexinc/pms-docker/
-    urls:
-    - kube-plex-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v1
-    created: 2018-11-06T22:12:08.61871-05:00
-    description: A Helm chart for Kubernetes
-    digest: b89c452590f132ada1bdc47f4cfddcb11035d0f85bb8aa1b6b58386637fbab59
-    name: kube-plex
-    urls:
-    - kube-plex-0.1.0.tgz
-    version: 0.1.0
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-06T22:12:08.620738-05:00
+    created: 2018-11-06T23:11:17.772158-05:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -130,7 +104,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-11-06T22:12:08.621758-05:00
+    created: 2018-11-06T23:11:17.773157-05:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -156,7 +130,7 @@ entries:
   node-red:
   - apiVersion: v1
     appVersion: 0.19.4
-    created: 2018-11-06T22:12:08.62277-05:00
+    created: 2018-11-06T23:11:17.773843-05:00
     description: Node-RED is flow-based programming for the Internet of Things
     digest: 49aefb0b579cf7108c84fcb6117bcbd3ddd1847c6fc80c9b6f21564028980a98
     home: https://github.com/node-red/node-red-docker
@@ -174,30 +148,10 @@ entries:
     urls:
     - node-red-1.0.0.tgz
     version: 1.0.0
-  - apiVersion: v1
-    appVersion: 0.19.4
-    created: 2018-11-06T22:12:08.622443-05:00
-    description: Node-RED is flow-based programming for the Internet of Things
-    digest: e4bd6326eb425cc79d91bf980ec30dfd1eaa307d499d85233cbf93f34a0eb4e3
-    home: https://github.com/node-red/node-red-docker
-    icon: https://nodered.org/about/resources/media/node-red-icon-2.png
-    keywords:
-    - nodered
-    - node-red
-    maintainers:
-    - email: jeff@billimek.com
-      name: billimek
-    name: node-red
-    sources:
-    - https://github.com/node-red/node-red-docker
-    - https://github.com/kubernetes/charts/stable/node-red
-    urls:
-    - node-red-0.1.0.tgz
-    version: 0.1.0
   nzbget:
   - apiVersion: v1
     appVersion: "147"
-    created: 2018-11-06T22:12:08.624603-05:00
+    created: 2018-11-06T23:11:17.774545-05:00
     description: NZBGet is a Usenet downloader client
     digest: ed0a509409aa4ee8593c163dda061eb2c48f9f6d2ec7bc1088c6af9e8e01c1b3
     home: https://nzbget.net/
@@ -215,30 +169,10 @@ entries:
     urls:
     - nzbget-0.1.2.tgz
     version: 0.1.2
-  - apiVersion: v1
-    appVersion: "147"
-    created: 2018-11-06T22:12:08.623488-05:00
-    description: NZBGet is a Usenet downloader client
-    digest: 14511fc00efb8f23954eb508280718bf6206f60bc7edd390efda0b1447d92e9c
-    home: https://nzbget.net/
-    icon: https://avatars1.githubusercontent.com/u/3368377?s=400&v=4
-    keywords:
-    - nzbget
-    - usenet
-    maintainers:
-    - email: jeff@billimek.com
-      name: billimek
-    name: nzbget
-    sources:
-    - https://hub.docker.com/r/linuxserver/nzbget/
-    - https://github.com/billimek/billimek-charts/nzbget
-    urls:
-    - nzbget-0.1.1.tgz
-    version: 0.1.1
   radarr:
   - apiVersion: v1
     appVersion: "137"
-    created: 2018-11-06T22:12:08.625337-05:00
+    created: 2018-11-06T23:11:17.77525-05:00
     description: Radarr is a movie downloading client
     digest: 2e17390936d18c5a6dd7a5d916e6adf5f84c5cc09625210f8e3b0359fbf73938
     home: https://github.com/Radarr/Radarr/
@@ -260,7 +194,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "162"
-    created: 2018-11-06T22:12:08.626096-05:00
+    created: 2018-11-06T23:11:17.775982-05:00
     description: Sonarr is a television show downloading client
     digest: 2f9a09802c39f8e61c5e5b94bce4325254d7990a9570557a59d4b55c321628cd
     home: https://sonarr.tv/
@@ -282,7 +216,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-06T22:12:08.626596-05:00
+    created: 2018-11-06T23:11:17.776439-05:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -302,7 +236,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-11-06T22:12:08.62706-05:00
+    created: 2018-11-06T23:11:17.777041-05:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -319,4 +253,4 @@ entries:
     urls:
     - uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2018-11-06T22:12:08.616315-05:00
+generated: 2018-11-06T23:11:17.769624-05:00
