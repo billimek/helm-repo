@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-09T16:34:19.535300109-05:00
+    created: 2018-11-16T09:13:39.509448-05:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: 3d8939e66c589733bf805d8ff56de8a8483d2c2e90705c7d1b65b6fe76cd2925
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,7 +24,7 @@ entries:
   deluge:
   - apiVersion: v1
     appVersion: "145"
-    created: 2018-11-09T16:34:19.535846064-05:00
+    created: 2018-11-16T09:13:39.510275-05:00
     description: Deluge is a lightweight, Free Software, cross-platform BitTorrent
       client.
     digest: 1c8cf2ee4f9cbbcddf96dd72c9a818a1dadc83858ca2f8c9598cefd5df233414
@@ -46,7 +46,7 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-11-09T16:34:19.536160012-05:00
+    created: 2018-11-16T09:13:39.510761-05:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -63,10 +63,27 @@ entries:
     urls:
     - digitalocean-dyndns-0.1.0.tgz
     version: 0.1.0
+  elasticsearch:
+  - appVersion: 6.2.4
+    created: 2018-11-16T09:13:39.51105-05:00
+    description: Flexible and powerful open source, distributed real-time search and
+      analytics engine.
+    digest: bf5784d61740cf34c1b3c0f40a0e2bece99db86eaf81908a503357417af1d72b
+    home: https://www.elastic.co/products/elasticsearch
+    icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
+    maintainers:
+    - email: guangbo@rancher.com
+      name: Rancher Labs
+    name: elasticsearch
+    sources:
+    - https://www.elastic.co/products/elasticsearch
+    urls:
+    - elasticsearch-0.1.0.tgz
+    version: 0.1.0
   kube-plex:
   - apiVersion: v1
     appVersion: 1.10.1.4602-f54242b6b
-    created: 2018-11-09T16:34:19.536566267-05:00
+    created: 2018-11-16T09:13:39.511788-05:00
     description: Plex Media Server
     digest: d1afd9db2e22629d90bb2f3e907e5d20634a069c30bf2842314acad93aca5727
     home: https://plex.tv/
@@ -85,7 +102,7 @@ entries:
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-09T16:34:19.536890903-05:00
+    created: 2018-11-16T09:13:39.512271-05:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -104,7 +121,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2018-11-09T16:34:19.537642863-05:00
+    created: 2018-11-16T09:13:39.51329-05:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -130,7 +147,7 @@ entries:
   nzbget:
   - apiVersion: v1
     appVersion: "147"
-    created: 2018-11-09T16:34:19.538038287-05:00
+    created: 2018-11-16T09:13:39.513927-05:00
     description: NZBGet is a Usenet downloader client
     digest: 5ac6c65c575ab7d3c2d59c41119a819a59871a12e8e1fe3aa633880bf78e332c
     home: https://nzbget.net/
@@ -151,7 +168,7 @@ entries:
   radarr:
   - apiVersion: v1
     appVersion: "137"
-    created: 2018-11-09T16:34:19.538452005-05:00
+    created: 2018-11-16T09:13:39.514552-05:00
     description: Radarr is a movie downloading client
     digest: d69acdd1a919dc0a3b5f8939c24c25a0d3dd3e774ffc5fe3d62315cd5b8fd0f6
     home: https://github.com/Radarr/Radarr/
@@ -173,7 +190,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "162"
-    created: 2018-11-09T16:34:19.538867015-05:00
+    created: 2018-11-16T09:13:39.515206-05:00
     description: Sonarr is a television show downloading client
     digest: 986894691aa0771953cc871c2273f48e21efa02c7fd19762a6975ecd6ab850c6
     home: https://sonarr.tv/
@@ -195,7 +212,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2018-11-09T16:34:19.539230124-05:00
+    created: 2018-11-16T09:13:39.515617-05:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -215,7 +232,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2018-11-09T16:34:19.539580345-05:00
+    created: 2018-11-16T09:13:39.516037-05:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -232,4 +249,4 @@ entries:
     urls:
     - uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2018-11-09T16:34:19.531416548-05:00
+generated: 2018-11-16T09:13:39.508718-05:00
