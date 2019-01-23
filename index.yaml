@@ -3,7 +3,7 @@ entries:
   comcast:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-01-22T08:12:58.915429-05:00
+    created: 2019-01-22T20:59:05.137408-05:00
     description: periodic comcast data usage checks and save the results to InfluxDB
     digest: 3d8939e66c589733bf805d8ff56de8a8483d2c2e90705c7d1b65b6fe76cd2925
     home: https://github.com/billimek/comcastUsage-for-influxdb
@@ -24,7 +24,7 @@ entries:
   deluge:
   - apiVersion: v1
     appVersion: "145"
-    created: 2019-01-22T08:12:58.915783-05:00
+    created: 2019-01-22T20:59:05.138288-05:00
     description: Deluge is a lightweight, Free Software, cross-platform BitTorrent
       client.
     digest: 1c8cf2ee4f9cbbcddf96dd72c9a818a1dadc83858ca2f8c9598cefd5df233414
@@ -46,7 +46,7 @@ entries:
   digitalocean-dyndns:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-22T08:12:58.916016-05:00
+    created: 2019-01-22T20:59:05.138756-05:00
     description: Dynamic DNS using DigitalOcean's DNS Services
     digest: 0fa43fca659fb219b6dceb56e35227a3586abcdb11d765a06ae0d1fd57ca1055
     home: https://github.com/tunix/digitalocean-dyndns
@@ -66,7 +66,7 @@ entries:
   forwardauth:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-22T08:12:58.916426-05:00
+    created: 2019-01-22T20:59:05.139596-05:00
     description: A Helm chart for Kubernetes to install Auth0 Authorization application
       for Traefik forward authentication.
     digest: 2f606e088b598b6d0f4a26ba2eaf28f498409f1c7c57acadf97a4a8a191ffaec
@@ -76,7 +76,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-22T08:12:58.916222-05:00
+    created: 2019-01-22T20:59:05.139121-05:00
     description: A Helm chart for Kubernetes to install Auth0 Authorization application
       for Traefik forward authentication.
     digest: bb576a16bded1609180589fd89aba86cb2ef2aecf53d90380a4370f69cec115a
@@ -87,9 +87,9 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.10.1.4602-f54242b6b
-    created: 2019-01-22T08:12:58.917437-05:00
+    created: 2019-01-22T20:59:05.141487-05:00
     description: Plex Media Server
-    digest: 131d583f6bde331577d8417b2fc5cf4996874e67db1cb7ed04fc5de4d6f44a3f
+    digest: 12d75219db39b0a93fa0502174d833aca4aace3a2b18b242c83865c4ac64e540
     home: https://plex.tv/
     icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
     keywords:
@@ -105,7 +105,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 1.10.1.4602-f54242b6b
-    created: 2019-01-22T08:12:58.917088-05:00
+    created: 2019-01-22T20:59:05.141159-05:00
     description: Plex Media Server
     digest: 5eea85700ba73b5b5280203c261b806ebb2a772a990d0bd76d02a9dff0d63e56
     home: https://plex.tv/
@@ -123,7 +123,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 1.10.1.4602-f54242b6b
-    created: 2019-01-22T08:12:58.91677-05:00
+    created: 2019-01-22T20:59:05.14037-05:00
     description: Plex Media Server
     digest: dab18f72ad8f42a451cb38d10ee6f07fc07be68eae662b71b11bf9ae0226612c
     home: https://plex.tv/
@@ -141,7 +141,7 @@ entries:
     version: 0.2.1
   loki:
   - appVersion: 0.0.1
-    created: 2019-01-22T08:12:58.917776-05:00
+    created: 2019-01-22T20:59:05.142182-05:00
     description: 'Loki: like Prometheus, but for logs.'
     digest: dcf8f045a98cd19f9c5d299055770827c16525f49568ee131227359208b26e87
     engine: gotpl
@@ -160,7 +160,7 @@ entries:
   modem-stats:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-01-22T08:12:58.918016-05:00
+    created: 2019-01-22T20:59:05.142666-05:00
     description: periodic cable modem data collection and save the results to InfluxDB
     digest: 39f6113645a4624f0c38c49d069791553c09574e07ce5c21c6f56009a77b46a0
     home: https://github.com/billimek/SB6183-stats-for-influxdb
@@ -179,7 +179,7 @@ entries:
     version: 1.0.0
   nextcloud:
   - appVersion: 13.0.0
-    created: 2019-01-22T08:12:58.918617-05:00
+    created: 2019-01-22T20:59:05.143646-05:00
     description: A file sharing server that puts the control and security of your
       own data back into your hands.
     digest: 0532d2ef9735bacbb20d06ae787e9bf4e021f50cc6c36426bb112edea13135aa
@@ -205,7 +205,7 @@ entries:
   nzbget:
   - apiVersion: v1
     appVersion: "153"
-    created: 2019-01-22T08:12:58.919299-05:00
+    created: 2019-01-22T20:59:05.146079-05:00
     description: NZBGet is a Usenet downloader client
     digest: 435fb3816ff99f9692a2407d8f603408335d1d3d7db90e973d35be8ada5b3d8a
     home: https://nzbget.net/
@@ -225,7 +225,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "147"
-    created: 2019-01-22T08:12:58.918952-05:00
+    created: 2019-01-22T20:59:05.144559-05:00
     description: NZBGet is a Usenet downloader client
     digest: 3eb81f2deff4c644a74c58a40171f082b42229eab0e4b8001c68d2aa94bcaca6
     home: https://nzbget.net/
@@ -246,7 +246,7 @@ entries:
   radarr:
   - apiVersion: v1
     appVersion: "137"
-    created: 2019-01-22T08:12:58.919666-05:00
+    created: 2019-01-22T20:59:05.146875-05:00
     description: Radarr is a movie downloading client
     digest: d69acdd1a919dc0a3b5f8939c24c25a0d3dd3e774ffc5fe3d62315cd5b8fd0f6
     home: https://github.com/Radarr/Radarr/
@@ -268,7 +268,7 @@ entries:
   rutorrent:
   - apiVersion: v1
     appVersion: amd64-latest
-    created: 2019-01-22T08:12:58.920036-05:00
+    created: 2019-01-22T20:59:05.147596-05:00
     description: ruTorrent
     digest: f6b1d060156c5c812c64e51874f28b54fc9135adc692d3e7ef0180215330e302
     home: https://github.com/Novik/ruTorrent
@@ -287,7 +287,7 @@ entries:
   sonarr:
   - apiVersion: v1
     appVersion: "162"
-    created: 2019-01-22T08:12:58.920827-05:00
+    created: 2019-01-22T20:59:05.148378-05:00
     description: Sonarr is a television show downloading client
     digest: 986894691aa0771953cc871c2273f48e21efa02c7fd19762a6975ecd6ab850c6
     home: https://sonarr.tv/
@@ -309,7 +309,7 @@ entries:
   speedtest:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2019-01-22T08:12:58.921369-05:00
+    created: 2019-01-22T20:59:05.148925-05:00
     description: periodic speedtest and save the results to InfluxDB
     digest: 32d77bb501e0a36901779d123391841c261eaf241451086ea324f043597d9a9a
     home: https://github.com/billimek/Speedtest-for-InfluxDB-and-Grafana
@@ -329,7 +329,7 @@ entries:
   uptimerobot:
   - apiVersion: v1
     appVersion: 1.1.0
-    created: 2019-01-22T08:12:58.921619-05:00
+    created: 2019-01-22T20:59:05.149402-05:00
     description: A tool to get statistics from Uptime Robot and log it into InfluxDB
     digest: c459bdc23361ee504d4c91f5c4a2839e6f0f160bad8fb2627016cc3c3d5ad107
     home: https://github.com/trojanc/node-influx-uptimerobot
@@ -346,4 +346,4 @@ entries:
     urls:
     - uptimerobot-1.1.2.tgz
     version: 1.1.2
-generated: 2019-01-22T08:12:58.91499-05:00
+generated: 2019-01-22T20:59:05.136629-05:00
